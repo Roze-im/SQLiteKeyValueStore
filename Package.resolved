@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "debouncer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Roze-im/Debouncer.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "65e11d732432a915c55a3536dcb627d0c461635b"
+      }
+    },
+    {
+      "identity" : "filelock",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Roze-im/FileLock.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b815f592e9f60c403981bd5a903194f26844e4bf"
+      }
+    },
+    {
+      "identity" : "sqlitedatabase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Roze-im/SQLiteDatabase",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4f04283d22f14ff335bce05327e9b5080e68ca00"
+      }
+    }
+  ],
+  "version" : 2
+}
