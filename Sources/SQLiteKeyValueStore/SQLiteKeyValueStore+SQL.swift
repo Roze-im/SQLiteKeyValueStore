@@ -89,7 +89,7 @@ extension SQLiteKeyValueStore {
     static func selectAllStatement(ns: Namespace) -> String {
         let table = table(forNamespace: ns)
         return """
-            SELECT key, value FROM "\(table)" ORDER BY KEY LIMIT :count OFFSET :offset;
+            SELECT key, value FROM "\(table)" ORDER BY ROWID LIMIT :count OFFSET :offset;
         """
     }
 
